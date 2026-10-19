@@ -1,6 +1,19 @@
 ﻿# Infrastructure Observability Lab
 
 A local infrastructure monitoring lab built with Docker Compose, Prometheus, Grafana, Node Exporter, and cAdvisor. The project demonstrates container orchestration, metrics collection, dashboard provisioning, service validation, and infrastructure troubleshooting.
+## Dashboard Preview
+
+### Infrastructure Overview
+
+Live dashboard panels displaying CPU and memory metrics collected by the monitoring stack.
+
+![Grafana Infrastructure Overview](docs/images/infrastructure-overview.png)
+
+### Prometheus Target Health
+
+Prometheus target status for the configured Prometheus, Node Exporter, and cAdvisor scrape jobs.
+
+![Prometheus Target Health](docs/images/prometheus-targets.png)
 
 ## Architecture
 
